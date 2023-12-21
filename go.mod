@@ -1,4 +1,4 @@
-module changeme
+module github.com/Cystemzz/timetrack
 
 go 1.21
 
