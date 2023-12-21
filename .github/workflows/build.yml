@@ -72,9 +72,6 @@ jobs:
           pattern: TimeTrack-${{  github.ref_name }}*
           merge-multiple: true
 
-      - name: List Each Artifact
-        run: ls -lhrt
-
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
