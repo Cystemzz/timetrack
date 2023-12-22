@@ -2,7 +2,10 @@ module github.com/Cystemzz/timetrack
 
 go 1.21
 
-require github.com/wailsapp/wails/v2 v2.4.1
+require (
+	github.com/wailsapp/wails/v2 v2.4.1
+	gorm.io/gorm v1.25.5
+)
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
@@ -31,7 +34,6 @@ require (
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	gorm.io/gorm v1.25.5 // indirect
 )
 
 // replace github.com/wailsapp/wails/v2 v2.7.1 => C:\Users\germl\go\pkg\mod
