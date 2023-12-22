@@ -1,7 +1,15 @@
+import {HashRouter, Route, Routes} from "react-router-dom";
+import "./output.css"
+import Home from "./pages/Home.jsx";
+
 function App() {
     return (
         <div id="App">
-            <p style={{color: 'white'}}>TimeTrack</p>
+            <HashRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                </Routes>
+            </HashRouter>
         </div>
     )
 }

@@ -2,3 +2,4 @@ build/bin
 node_modules
 frontend/dist
 /.idea
+frontend/src/output.css
