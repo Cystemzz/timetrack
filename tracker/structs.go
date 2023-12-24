@@ -12,6 +12,13 @@ type Workspace struct {
 	Version    int
 }
 
+type WorkspaceMetadata struct {
+	gorm.Model
+	Name        string
+	Description string
+	Version     int
+}
+
 type Job struct {
 	gorm.Model
 	Name        string
